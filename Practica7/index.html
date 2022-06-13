@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/java.js"></script>
+    <title>Practica 7</title>
+</head>
+<body>
+    <div id="app" class="centrado">
+        <form name="calculadora">
+            <input type="textfield" name="answer" value="" autocomplete="off" readonly>
+
+            <input type="reset" value="AC" class="color3">
+            <input type="button" value="+/-" onclick="document.calculadora.answer.value+='-'" class="color3">
+            <input type="button" value="%" onclick="document.calculadora.answer.value+='%'" class="color3">
+            <input type="button" value="/" onclick="document.calculadora.answer.value+='/'" class="color2">
+            <br>
+
+            <input type="button" value="7" onclick="document.calculadora.answer.value+='7'" class="color1">
+            <input type="button" value="8" onclick="document.calculadora.answer.value+='8'" class="color1">
+            <input type="button" value="9" onclick="document.calculadora.answer.value+='9'" class="color1">
+            <input type="button" value="x" onclick="document.calculadora.answer.value+='*'" class="color2">
+            <br>
+            <input type="button" value="4" onclick="document.calculadora.answer.value+='4'" class="color1">
+            <input type="button" value="5" onclick="document.calculadora.answer.value+='5'" class="color1">
+            <input type="button" value="6" onclick="document.calculadora.answer.value+='6'" class="color1">
+            <input type="button" value="-" onclick="document.calculadora.answer.value+='-'" class="color2">
+            <br>
+            <input type="button" value="1" onclick="document.calculadora.answer.value+='1'" class="color1">
+            <input type="button" value="2" onclick="document.calculadora.answer.value+='2'" class="color1">
+            <input type="button" value="3" onclick="document.calculadora.answer.value+='3'" class="color1">
+            <input type="button" value="+" onclick="document.calculadora.answer.value+='+'" class="color2">
+
+            <br>
+            <input type="button" value="0" onclick="document.calculadora.answer.value+='0'" class="color1" id="cero">
+            <input type="button" value="." onclick="document.calculadora.answer.value+='.'" class="color1">
+            <input type="button" value="=" onclick="document.calculadora.answer.value=eval(document.calculadora.answer.value)" id="color2">
+        </form>
+    </div>
+</body>
+</html>

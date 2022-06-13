@@ -1,0 +1,77 @@
+body{
+    background-color: gray;
+}
+
+#app{
+    height: 550px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#app form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#app input[type=textfield]{
+    width: 90%;
+    height: 25%;
+    cursor: default;
+    font-family: 'Roboto' , sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#app input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color:black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#cero{
+    width: 25%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color:black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.color1{
+    background-color: rgb(65, 113, 114) !important;
+    color: white !important;
+}
+
+.color2{
+    background-color: rgb(241, 201, 61) !important;
+    color: white !important;
+}
+
+.color3{
+    background-color: rgb(144, 205, 206) !important;
+    color: black !important;
+}
+
+.centrado{
+    width: 200px;       
+    height: 200px;
+    margin: 0 auto;
+}
